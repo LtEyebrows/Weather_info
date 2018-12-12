@@ -7,9 +7,9 @@ class Form extends Component {
       <div className="Form">
         <div className="row">
           <div className="col-md-12">
-            <form onSubmit="">
-              <input type="text" name="city" Placeholder="City..." />
-              <input type="text" name="country" Placeholder="Country..." />
+            <form onSubmit={this.props.getWeather}>
+              <input type="text" name="city" placeholder="City..." />
+              <input type="text" name="country" placeholder="Country..." />
               <input type="submit" value="Get Weather" />
             </form>
           </div>

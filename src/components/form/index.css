@@ -3,14 +3,14 @@ input {
   line-height: 50px;
   padding: 5px;
   border: none;
-  color: grey;
+  color: black;
   font-size: 150%;
   border-bottom: 1px solid grey;
 }
 
 input[type="text"] {
   width: 25%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: white;
 }
 
 inpt[type="submit"] {
